@@ -1,13 +1,13 @@
 <br/>
 <p align="center">
   <a href="https://github.com/ShaanCoding/ReadME-Generator">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/terraform-logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Terraform Template</h3>
 
   <p align="center">
-    An Awesome ReadME Generator To Jumpstart Your Projects!
+    Terraform starter template with VPC, Subnet, Route table, Internet Gateway, Network Interface and Elastic IP
     <br/>
     <br/>
     <a href="https://github.com/ShaanCoding/ReadME-Generator"><strong>Explore the docs »</strong></a>
