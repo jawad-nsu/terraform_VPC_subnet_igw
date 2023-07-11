@@ -123,7 +123,7 @@ resource "aws_instance" "web-server-instance" {
     ami = "ami-06ca3ca175f37dd66"
     instance_type = "t2.micro"
     availability_zone = "us-east-1a"
-    key_name = "terraform-prac-key-pair"
+    key_name = "${var.key_pair}"
 
     network_interface {
     device_index         = 0

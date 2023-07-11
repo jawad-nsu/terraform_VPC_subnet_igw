@@ -10,10 +10,10 @@
     Terraform starter template with VPC, Subnet, Route table, Internet Gateway, Network Interface and Elastic IP
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ReadME-Generator"><strong>Explore the docs »</strong></a>
+    
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/ReadME-Generator">View Demo</a>
+   
     .
     <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Report Bug</a>
     .
@@ -55,12 +55,12 @@ A list of commonly used resources that I find helpful are listed in the acknowle
 
 ## Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+HCL (HashiCorp Configuration Language) is a configuration language designed to be both human and machine-readable for use in infrastructure automation.
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in variables.tf. Generate access_key and secret_key from AWS console. I've attached an terraform.tfvars.example file, rename it to
+terraform.tfvars and insert your access_key, secret_key.
 
 ### Prerequisites
 
