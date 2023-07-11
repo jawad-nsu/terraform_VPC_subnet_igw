@@ -34,19 +34,16 @@
 
 ## About The Project
 
-![Screen Shot](images/resource_list.png)
-
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+I wanted to create a terraform template to create several AWS resources through automation and using code as infrastructure.
 
 Here's why:
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should element DRY principles to the rest of your life :smile:
+- Automated infrastructure management :smile:
+- Less error prone, less tedious espcially when you're deploying a large system that involves a complex topology
+- Support for multi cloud provider like AWS, Azure, GCP, IBM
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Here is a list of resources created
+![Screen Shot](images/resource_list.png)
 
 ## Built With
 
@@ -58,7 +55,7 @@ Clone this repository to your local machine. Generate key pair from your AWS man
 
 ### Prerequisites
 
-You would need Terraform in your local machine
+You need Terraform in your local machine
 
 - Terraform
 
@@ -95,16 +92,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
-See the [open issues](https://github.com/ShaanCoding/ReadME-Generator/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/ShaanCoding/ReadME-Generator/issues/new) to discuss it, or directly create a pull request after you edit the _README.md_ file with necessary changes.
-- Please make sure you check your spelling and grammar.
+- If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues/new) to discuss it, or directly create a pull request after you edit the files with necessary changes.
 - Create individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com/ShaanCoding/ReadME-Generator/blob/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
+- Please also read through the [Code Of Conduct](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -116,14 +112,12 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/ShaanCoding/ReadME-Generator/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/LICENSE.md) for more information.
 
 ## Authors
 
-- **Shaan Khan** - _Comp Sci Student_ - [Shaan Khan](https://github.com/ShaanCoding/) - _Built ReadME Template_
+- **Jawad Rahim** - _Software Engineer_ - [Jawad Rahim](https://github.com/jawad-nsu) - _Built Terraform Template_
 
 ## Acknowledgements
 
-- [ShaanCoding](https://github.com/ShaanCoding/)
-- [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
-- [ImgShields](https://shields.io/)
+- [Sanjeev-Thiyagarajan](https://github.com/Sanjeev-Thiyagarajan/Terraform-Crash-Course)
