@@ -58,7 +58,7 @@ Clone this repository to your local machine. Generate key pair from your AWS man
 
 ### Prerequisites
 
-You would need Terraform installed in your local machine
+You would need Terraform in your local machine
 
 - Terraform
 
@@ -69,24 +69,22 @@ brew install hashicorp/tap/terraform
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-
-2. Clone the repo
+1. Clone the repo
 
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
 
-3. Install NPM packages
+2. Run Terraform
 
 ```sh
-npm install
+terraform apply --auto-approve
 ```
 
-4. Enter your API in `config.js`
+3. Show state
 
-```JS
-const API_KEY = 'ENTER YOUR API';
+```sh
+terraform state list
 ```
 
 ## Usage
