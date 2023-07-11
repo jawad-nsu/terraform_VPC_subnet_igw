@@ -7,17 +7,13 @@
   <h3 align="center">Terraform Template</h3>
 
   <p align="center">
-    Terraform starter template with VPC, Subnet, Route table, Internet Gateway, Network Interface and Elastic IP
+    Terraform starter template with AWS VPC, Subnet, Route table, Internet Gateway, Network Interface and Elastic IP
     <br/>
     <br/>
-    
-    <br/>
-    <br/>
-   
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Report Bug</a>
+    <a href="https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues">Report Bug</a>
     .
-    <a href="https://github.com/ShaanCoding/ReadME-Generator/issues">Request Feature</a>
+    <a href="https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues">Request Feature</a>
   </p>
 </p>
 
