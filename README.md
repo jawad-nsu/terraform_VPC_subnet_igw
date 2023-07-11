@@ -10,7 +10,6 @@
     Terraform starter template with AWS VPC, Subnet, Route table, Internet Gateway, Network Interface and Elastic IP
     <br/>
     <br/>
-    .
     <a href="https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues">Report Bug</a>
     .
     <a href="https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues">Request Feature</a>
@@ -55,17 +54,17 @@ HCL (HashiCorp Configuration Language) is a configuration language designed to b
 
 ## Getting Started
 
-Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in variables.tf. Generate access_key and secret_key from AWS console. I've attached an terraform.tfvars.example file, rename it to
-terraform.tfvars and insert your access_key, secret_key.
+Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in (`variables.tf`). Generate access_key and secret_key from AWS console. I've attached an (`terraform.tfvars.example`) file, rename it to (`terraform.tfvars`) and insert your access_key, secret_key.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You would need Terraform installed in your local machine
 
-- npm
+- Terraform
 
 ```sh
-npm install npm@latest -g
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 ```
 
 ### Installation
