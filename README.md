@@ -98,9 +98,9 @@ Here is a list of resources created
 9. Create an Ubuntu server and install/update apache2
 
 We can see the list of resources created using the (`terraform state list`) command.
-<br/>
+
 Here is a screenshot of the resources created successfully
-<br/>
+
 ![Screen Shot](images/resource_list.png)
 <br/>
 Finally, we can tear down all the resources created using the (`terraform destroy`) command
