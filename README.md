@@ -42,10 +42,6 @@ Here's why:
 - Less error prone, less tedious espcially when you're deploying a large system that involves a complex topology
 - Support for multi cloud provider like AWS, Azure, GCP, IBM
 
-Here is a list of resources created
-</br>
-![Screen Shot](images/resource_list.png)
-
 ## Built With
 
 HCL (HashiCorp Configuration Language) is a configuration language designed to be both human and machine-readable for use in infrastructure automation.
@@ -89,9 +85,31 @@ terraform state list
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Here is a list of resources created
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+1. VPC
+2. Internet Gateway
+3. Custom Route Table
+4. Subnet (inside VPC)
+5. Associate subnet w route table using Route Table Association
+6. Create Security Groups with port 22, 80, 443
+7. Create an Network Interface with IP in subnet created in step 4
+8. Assign elastic IP with the network interface create in step 7
+9. Create an Ubuntu server and install/update apache2
+
+We can see the list of resources created using the (`terraform state list`) command
+Here is a screenshot of the resources created successfully
+</br>
+![Screen Shot](images/resource_list.png)
+</br>
+Finally, we can tear down all the resources created using the (`terraform destroy`) command
+
+Few other useful commands,
+(`terraform state show aws_eip.one`) #show details on a single resource
+
+(`terraform destroy -target aws_instace.web-server-instance`) #deletes particular resource
+
+(`terraform apply -target aws_instace.web-server-instance`) #creates particular resource
 
 ## Roadmap
 
