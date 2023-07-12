@@ -43,6 +43,7 @@ Here's why:
 - Support for multi cloud provider like AWS, Azure, GCP, IBM
 
 Here is a list of resources created
+</br>
 ![Screen Shot](images/resource_list.png)
 
 ## Built With
