@@ -70,7 +70,7 @@ brew install hashicorp/tap/terraform
 1. Clone the repo
 
 ```sh
-git clone https://github.com/your_username_/Project-Name.git
+git clone https://github.com/jawad-nsu/terraform_vpc_subnet_igw.git
 ```
 
 2. Run Terraform
@@ -101,7 +101,7 @@ Contributions are what make the open source community such an amazing place to b
 
 - If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/issues/new) to discuss it, or directly create a pull request after you edit the files with necessary changes.
 - Create individual PR for each suggestion.
-- Please also read through the [Code Of Conduct](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/CODE_OF_CONDUCT.md) before posting your first idea as well.
+- Please also read through the [Code Of Conduct](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/main/CODE_OF_CONDUCT.md) before posting your first idea as well.
 
 ### Creating A Pull Request
 
@@ -113,7 +113,7 @@ Contributions are what make the open source community such an amazing place to b
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/jawad-nsu/terraform_vpc_subnet_igw/main/LICENSE.md) for more information.
 
 ## Authors
 
