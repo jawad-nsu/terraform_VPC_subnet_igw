@@ -50,6 +50,8 @@ Here is a list of resources created
 
 HCL (HashiCorp Configuration Language) is a configuration language designed to be both human and machine-readable for use in infrastructure automation.
 
+- [HCL](https://developer.hashicorp.com/terraform/language/syntax/configuration)
+
 ## Getting Started
 
 Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in (`variables.tf`). Generate access_key and secret_key from AWS console. I've attached an (`terraform.tfvars.example`) file, rename it to (`terraform.tfvars`) and insert your access_key, secret_key.
