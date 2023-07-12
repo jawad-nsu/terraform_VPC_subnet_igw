@@ -97,7 +97,8 @@ Here is a list of resources created
 8. Assign elastic IP with the network interface create in step 7
 9. Create an Ubuntu server and install/update apache2
 
-We can see the list of resources created using the (`terraform state list`) command
+We can see the list of resources created using the (`terraform state list`) command.
+</br>
 Here is a screenshot of the resources created successfully
 </br>
 ![Screen Shot](images/resource_list.png)
@@ -105,11 +106,12 @@ Here is a screenshot of the resources created successfully
 Finally, we can tear down all the resources created using the (`terraform destroy`) command
 
 Few other useful commands,
-(`terraform state show aws_eip.one`) #show details on a single resource
 
-(`terraform destroy -target aws_instace.web-server-instance`) #deletes particular resource
+- show details on a single resource (`terraform state show aws_eip.one`)
 
-(`terraform apply -target aws_instace.web-server-instance`) #creates particular resource
+- delete particular resource (`terraform destroy -target aws_instace.web-server-instance`)
+
+- creates particular resource (`terraform apply -target aws_instace.web-server-instance`)
 
 ## Roadmap
 
