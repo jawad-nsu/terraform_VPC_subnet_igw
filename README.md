@@ -34,7 +34,7 @@
 
 ## About The Project
 
-I wanted to create a terraform template to create several AWS resources through automation and using code as infrastructure.
+I wanted to create a terraform template to provision several AWS resources through automation and using code as infrastructure.
 
 Here's why:
 
@@ -50,7 +50,7 @@ HCL (HashiCorp Configuration Language) is a configuration language designed to b
 
 ## Getting Started
 
-Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in (`variables.tf`). Generate access_key and secret_key from AWS console. I've attached an (`terraform.tfvars.example`) file, rename it to (`terraform.tfvars`) and insert your access_key, secret_key.
+Clone this repository to your local machine. Generate key pair from your AWS management console. Insert the key-pair name in (`variables.tf`). Generate `access_key` and `secret_key` from AWS console. I've attached an (`terraform.tfvars.example`) file, rename it to (`terraform.tfvars`) and insert your `access_key`, `secret_key`.
 
 ### Prerequisites
 
