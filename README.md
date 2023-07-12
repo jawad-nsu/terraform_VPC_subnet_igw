@@ -102,7 +102,7 @@ We can see the list of resources created using the (`terraform state list`) comm
 Here is a screenshot of the resources created successfully
 
 ![Screen Shot](images/resource_list.png)
-<br/>
+
 Finally, we can tear down all the resources created using the (`terraform destroy`) command
 
 Few other useful commands,
