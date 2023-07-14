@@ -41,6 +41,7 @@ Here's why:
 - Automated infrastructure management :smile:
 - Less error prone, less tedious espcially when you're deploying a large system that involves a complex topology
 - Support for multi cloud provider like AWS, Azure, GCP, IBM
+- Define dependency on other resources, for example, before we can attach an Elastic IP to an Network interface, we have to make sure the Network Interface is up and running, otherwise it'll fail to attach. We can use something called the `depends_on` flag to denote dependency on other resources.
 
 ## Built With
 
